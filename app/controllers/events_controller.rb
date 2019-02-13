@@ -1,6 +1,9 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
   before_action :is_owner?, only: [:edit, :update, :destroy]
+  before_action :is_customer_and_not?, only: [:show]
+  before_action :is_admin_and_not?, only: [:show]
+
   # GET /events
   # GET /events.json
   def index
@@ -82,10 +85,25 @@ class EventsController < ApplicationController
     end
 
     def is_owner?
-      @user = @event.user
     if current_user != @event.user
       flash[:error] = "Tu ne peux pas accéder à une page qui ne t'appartient pas"
       redirect_to events_path
     end
     end
+
+  def is_admin_and_not?
+    if current_user == @event.user then
+      @is_what = 1
+    end
+  end
+
+  def is_customer_and_not?
+    @attendance = Attendance.all
+
+    if @attendance.select{|hash| hash["user_id"] == current_user.id }.empty?
+      @is_what = 3
+    else
+      @is_what = 2
+    end
+  end
 end

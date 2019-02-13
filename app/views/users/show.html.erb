@@ -40,18 +40,19 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-12">
         <div class="table-responsive">
           <table class="table">
             <thead>
             <tr>
+              <th class="text-center">ID Event</th>
               <th class="text-center">Start date</th>
               <th class="text-center">Duration</th>
               <th class="text-center">Title</th>
               <th class="text-center">Description</th>
               <th class="text-center">Price</th>
               <th class="text-center">Location</th>
-              <th class="text-center">User</th>
+              <th class="text-center">Actions</th>
               <th colspan="3"></th>
             </tr>
             </thead>
@@ -60,16 +61,16 @@
             <% @events.each do |event| %>
               <tr>
                 <% if current_user == event.user then%>
-                <td class="text-center"><%= event.start_date %></td>
+                  <td class="text-center"><%= event.id %></td>
+                  <td class="text-center"><%= event.start_date %></td>
                 <td class="text-center"><%= event.duration %></td>
                 <td class="text-center"><%= event.title %></td>
                 <td class="text-center"><%= event.description %></td>
                 <td class="text-center"><%= event.price %></td>
                 <td class="text-center"><%= event.location %></td>
-                <td class="text-center"><%= event.user %></td>
-                <td><%= link_to 'Show', event %></td>
-                <td><%= link_to 'Edit', edit_event_path(event) %></td>
-                <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                <td><%= link_to 'Show', event, class: 'btn btn-primary btn-xs' %></td>
+                <td><%= link_to 'Edit', edit_event_path(event), class: 'btn btn-info btn-xs'  %></td>
+                <td><%= link_to 'Destroy', event, method: :delete, class: 'btn btn-danger btn-xs' %></td>
                   <%else end %>
               </tr>
             <% end %>

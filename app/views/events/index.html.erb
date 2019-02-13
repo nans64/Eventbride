@@ -33,6 +33,7 @@ else  link_to 'LOGIN TO CREATE AN EVENT', new_user_session_path, class: "btn btn
         <td class="text-center"><%= event.price %></td>
         <td class="text-center"><%= event.location %></td>
         <td class="text-center"><%= event.user.email %></td>
+        <td><%= link_to 'Show', event, class: 'btn btn-primary btn-xs' %></td>
       </tr>
     <% end %>
   </tbody>

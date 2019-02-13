@@ -4,7 +4,7 @@ class Event < ApplicationRecord
   belongs_to :user
 
 
-  has_many :attendances
+  has_many :attendances, dependent: :delete_all
   has_many :users, through: :attendances
 
   validates :start_date,

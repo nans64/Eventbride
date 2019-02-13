@@ -1,0 +1,23 @@
+<h1>Liste des participants à l'événement</h1>
+<br><br>
+<%= link_to "Modifier evenement", edit_event_path(@event), class:"btn btn-info" %>
+<%= link_to 'Effacer evenement', event_path(@event), method: :delete, confirm: 'Are you sure?', class: 'btn btn-mini btn-danger'  %>
+
+<br><br>
+<% @event.attendances.each do |attendance| %>
+
+  <div class="list-group">
+    <a class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1"><%= attendance.user.first_name %>  <%= attendance.user.last_name %></h5>
+        <small><%= attendance.user.updated_at %> </small>
+      </div>
+      <p class="mb-1"><%= attendance.user.description %> </p>
+      <small><%= attendance.user.email %> </small>
+
+    </a>
+  </div>
+
+
+  <br><br>
+<%end%>

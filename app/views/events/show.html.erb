@@ -1,5 +1,18 @@
 <%= link_to 'EDIT EVENT', edit_event_path(@event), class: "btn btn-default btn-info" %>
 <%= link_to 'BACK TO EVENT', root_path, class: "btn btn-default btn-primary" %>
+<!-- CHECK IF VISITOR IS ADMIN OR ALREADY BOOKED THE EVENT -->
+<% if @is_what == 1 %>
+  <%= link_to('VOIR LA LISTE', event_participations_path(@event), class: "btn btn-default btn-info" ) %>
+
+  <% elsif @is_what == 2 %>
+
+ <%= link_to('VOIR TON INSCRIPTION', attendance_path, class: "btn btn-default btn-info" ) %>
+
+   <% else %>
+
+   <%link_to('INSCRIPTION', new_attendance_path, class: "btn btn-default btn-info" ) %>
+
+<% end %>
 
 <p>
   <strong>Start date:</strong>
@@ -35,3 +48,4 @@
   <strong>User:</strong>
   <%= @event.user %>
 </p>
+

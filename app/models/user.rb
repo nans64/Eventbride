@@ -10,6 +10,9 @@ class User < ApplicationRecord
   #validates :first_name, length: { minimum: 2 }
   #validates :last_name, length: { minimum: 2 }
 
+  has_many :attendances
+  has_many :events, through: :attendances, dependent: :destroy
+
   after_create :welcome_send
 
   def welcome_send

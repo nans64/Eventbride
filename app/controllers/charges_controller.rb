@@ -4,8 +4,9 @@ class ChargesController < ApplicationController
 
   def create
     # Amount in cents
-    @amount = 500
-
+    puts @id = params[:event_id]
+    puts @event = Event.find(@id)
+    puts @amount = @event.price * 100
     customer = Stripe::Customer.create(
         :email => params[:stripeEmail],
         :source  => params[:stripeToken]
@@ -14,9 +15,13 @@ class ChargesController < ApplicationController
     charge = Stripe::Charge.create(
         :customer    => customer.id,
         :amount      => @amount,
-        :description => 'Rails Stripe customer',
-        :currency    => 'usd'
+        :description => 'Event customers',
+        :currency    => 'eur'
     )
+
+
+    new_attendance = Attendance.create(stripe_customer_id: customer, user: current_user, event: @event)
+    redirect_to event_path(@event)
 
   rescue Stripe::CardError => e
     flash[:error] = e.message

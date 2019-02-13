@@ -2,7 +2,8 @@ class Event < ApplicationRecord
 
 
   belongs_to :user
-
+  has_many :attendances
+  has_many :attendees, class_name: "User", through: :attendances
 
   has_many :attendances, dependent: :delete_all
   has_many :users, through: :attendances
@@ -23,7 +24,7 @@ class Event < ApplicationRecord
             length: { in: 20..1000 }
   validates :price,
             presence: true,
-            numericality: { greater_than: 1, less_than: 1001 }
+            numericality: { greater_than: 0, less_than: 1001 }
 
   validates :location,
             presence: true

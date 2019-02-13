@@ -6,13 +6,30 @@
 
   <% elsif @is_what == 2 %>
 
- <%= link_to('VOIR TON INSCRIPTION', attendance_path, class: "btn btn-default btn-info" ) %>
-
+<p> Vous participez déjà à cet événement </p>
    <% else %>
 
-   <%link_to('INSCRIPTION', new_attendance_path, class: "btn btn-default btn-info" ) %>
+  <%= form_tag event_attendances_path(@event) do %>
+    <article>
+      <% if flash[:error].present? %>
+        <div id="error_explanation">
+          <p><%= flash[:error] %></p>
+        </div>
+      <% end %>
+      <label class="amount">
+        <span>Amount: $5.00</span>
+      </label>
+    </article>
+
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+            data-description="A month's subscription"
+            data-amount=<%=@event.price * 100%>
+            data-locale="auto"></script>
+  <% end %>
 
 <% end %>
+
 
 <p>
   <strong>Start date:</strong>

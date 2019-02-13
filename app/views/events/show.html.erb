@@ -1,4 +1,5 @@
-<p id="notice"><%= notice %></p>
+<%= link_to 'EDIT EVENT', edit_event_path(@event), class: "btn btn-default btn-info" %>
+<%= link_to 'BACK TO EVENT', root_path, class: "btn btn-default btn-primary" %>
 
 <p>
   <strong>Start date:</strong>
@@ -34,6 +35,3 @@
   <strong>User:</strong>
   <%= @event.user %>
 </p>
-
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>

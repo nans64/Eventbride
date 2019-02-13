@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-
+  before_action :is_owner?, only: [:edit, :update, :destroy]
   # GET /events
   # GET /events.json
   def index
@@ -14,7 +14,15 @@ class EventsController < ApplicationController
 
   # GET /events/new
   def new
-    @event = Event.new
+    if user_signed_in? # essaie de sauvegarder en base @gossip
+      @event = Event.new
+
+    else
+      flash[:error] = "Il faut être enregistré pour créer un event"
+      redirect_to new_user_session_path
+
+    end
+
   end
 
   # GET /events/1/edit
@@ -26,15 +34,16 @@ class EventsController < ApplicationController
   def create
     @event = Event.new(event_params)
 
-    respond_to do |format|
-      if @event.save
-        format.html { redirect_to @event, notice: 'Event was successfully created.' }
-        format.json { render :show, status: :created, location: @event }
-      else
-        format.html { render :new }
-        format.json { render json: @event.errors, status: :unprocessable_entity }
+      respond_to do |format|
+        if @event.save
+          format.html { redirect_to @event, notice: 'Event was successfully created.' }
+          format.json { render :show, status: :created, location: @event }
+        else
+          format.html { render :new }
+          format.json { render json: @event.errors, status: :unprocessable_entity }
+        end
       end
-    end
+
   end
 
   # PATCH/PUT /events/1
@@ -70,5 +79,13 @@ class EventsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
       params.require(:event).permit(:start_date, :duration, :title, :description, :price, :location, :user_id)
+    end
+
+    def is_owner?
+      @user = @event.user
+    if current_user != @event.user
+      flash[:error] = "Tu ne peux pas accéder à une page qui ne t'appartient pas"
+      redirect_to events_path
+    end
     end
 end

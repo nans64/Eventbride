@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34f7d52b-68dc-4657-b950-2e636e1d6b3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/say_hello.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-kit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow-left.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow-right.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bg9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/city.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dg9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/camp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/card-profile1-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/card-profile2-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/card-profile4-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/card-profile5-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/card-profile6-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/christian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/kendall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faces/marc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/AU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/BE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/BF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/BO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/CZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/DE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/DJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/DK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/DZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/EE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/EG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/ES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/FI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/FR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/GM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/GT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/HN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/HT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/HU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/ID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/IT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/JM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/JO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/JP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/KZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/LV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/MG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/MK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/ML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/MM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/MT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/MX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/NO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/OM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/PY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/RO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/RU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/RW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/SV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/TD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/TJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/TZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/UA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/VE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/VN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/flags/YE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/image_placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/loading-bubbles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/office2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/presentation/components.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/presentation/components2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sections/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sections/iphone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-selectpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.flexisel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/material-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_checkboxes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_dialogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_dividers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_example-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_fileupload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_flexisel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_import-bs-less.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_import-bs-sass.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_inputs-size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_panels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_pills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_popups.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_radios.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_ripples.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_togglebutton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_variables_bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/_welljumbo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/plugins/_plugin-bootstrap-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/plugins/_plugin-datetime-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/plugins/_plugin-nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_blogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_contactus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_headers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_projects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_social-subscribe-lines.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sass/material-kit/sections/_testimonials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190211110656_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190211110656_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/log/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/services/say_hello.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textarea</find>
+      <find>col-lg-5 col-md-6 col-sm-3</find>
+      <find>time picker</find>
+      <find>single</find>
+      <find>dropdown</find>
+      <find>faker</find>
+      <find>flash</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../../../../materialkitpro-121/materialkitpro-121/material-kit-pro-html-v1.2.1/index.html" />
+        <option value="$PROJECT_DIR$/db/migrate/20190211110656_create_users.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/services/say_hello.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-517" />
+    <option name="y" value="27" />
+    <option name="width" value="1390" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mondayevent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mondayevent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mondayevent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mondayevent" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Semaine5/Dimanche/myapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/views/devise/registrations" />
+      <recent name="$PROJECT_DIR$/app/views/devise/users" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: mondayevent">
+    <configuration name="Development: mondayevent" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="mondayevent" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: mondayevent" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="mondayevent" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: mondayevent" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="mondayevent" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: mondayevent" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="mondayevent" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34f7d52b-68dc-4657-b950-2e636e1d6b3f" name="Default Changelist" comment="" />
+      <created>1550057418028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550057418028</updated>
+      <workItem from="1550057419117" duration="24571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24571000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="25" width="1867" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24958587" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32922733" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../material-kit-html-v2.0.5/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../material-kit-html-v2.0.5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="212" column="35" lean-forward="true" selection-start-line="212" selection-start-column="35" selection-end-line="212" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/material-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../materialkitpro-121/materialkitpro-121/material-kit-pro-html-v1.2.1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="849" column="30" selection-start-line="849" selection-start-column="30" selection-end-line="849" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190211110656_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190213151827_add_devise_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/say_hello.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -4,39 +4,39 @@
       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
 
       <ul>
-      <% user.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+  <div class="form-group label-floating">
+    <%= form.label :email, class: "control-label"  %>
+    <%= form.text_field :email, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :encrypted_password %>
-    <%= form.text_field :encrypted_password %>
+  <div class="form-group label-floating">
+    <%= form.label :encrypted_password, class: "control-label" %>
+    <%= form.text_field :encrypted_password, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+  <div class="form-group label-floating">
+    <%= form.label :first_name, class: "control-label" %>
+    <%= form.text_field :first_name, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
+  <div class="form-group label-floating">
+    <%= form.label :last_name, class: "control-label" %>
+    <%= form.text_field :last_name, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+  <div class="form-group label-floating">
+    <%= form.label :description, class: "control-label" %>
+    <%= form.text_area :description, class: "form-control" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Confirm", class: "btn btn-default btn-success" %>
   </div>
 <% end %>

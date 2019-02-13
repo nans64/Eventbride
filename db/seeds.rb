@@ -8,8 +8,7 @@
 require 'faker'
 
 15.times do
-  mdp = Faker::Internet.password(8)
-  user = User.create!(email: Faker::Internet.email, encrypted_password: mdp, first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, description: Faker::TvShows::SiliconValley.quote)
+  user = User.create!(email: Faker::Internet.email, encrypted_password: SecureRandom.urlsafe_base64, first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, description: Faker::TvShows::SiliconValley.quote)
   puts ""
   puts "user #{user.first_name} #{user.last_name}"
   sleep(0.05)

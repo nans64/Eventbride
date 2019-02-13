@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :is_owner?, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
@@ -10,6 +11,9 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+
+    @events = Event.all
+
   end
 
   # GET /users/new
@@ -71,4 +75,11 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:email, :encrypted_password, :first_name, :last_name, :description)
     end
+
+  def is_owner?
+    if current_user != @user
+      flash[:error] = "Tu ne peux pas accéder à une page qui ne t'appartient pas"
+      redirect_to events_path
+    end
+  end
 end

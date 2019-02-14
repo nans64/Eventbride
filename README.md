@@ -1,18 +1,12 @@
 # This is how we do it !
 
-First you create an user as visitor -> http://localhost:3000/users/new
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0hiUuL5uTKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Second you create another user as admin -> http://localhost:3000/users/new
-
-Create an event with your admin login -> http://localhost:3000/events/new
-
-Create a new attendance with your visitor login -> http://localhost:3000/attendances/new
-##
-You will get 3 emails :
-
-1 - Visitor signup
-
-2 - Admin signup ( same one )
-
-3 - New attendee signup -> Sent to admin email
 # Eventbride
+
+Try the application here 
+https://radiant-basin-66804.herokuapp.com/
+
+Create an account then try to create an event
+Once you are done, try to pay for an event 
+Create another account to join your event and check if the attendees list displays correctly.
